@@ -1,7 +1,9 @@
-const SingleProfile = async () => {
+const SingleProfile = async (props) => {
+  const user = await props.params;
+  console.log(user);
   return (
     <>
-      <h1>Dynamic</h1>
+      <h1>Username - {user.usernames}</h1>
     </>
   );
 };
