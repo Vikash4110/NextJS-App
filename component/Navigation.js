@@ -17,6 +17,12 @@ export default function Navigation() {
           <li>
             <Link href="/services">Services</Link>
           </li>
+          <li>
+            <Link href="/clientcomp">Client Component</Link>
+          </li>
+          <li>
+            <Link href="/servercomp">Server Component</Link>
+          </li>
         </ul>
       </nav>
     </header>
